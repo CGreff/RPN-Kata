@@ -13,6 +13,7 @@ These are:
 ## Strategy
 This solution aims at using a binary syntax tree as the underlying data structure for an
 expression. This means that the expression: 'a+(b-c)' is stored as a tree of this format:
+
           +
     a            -
             b         c 
